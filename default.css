@@ -1,0 +1,191 @@
+h3 {
+    color: #6D6D6D;
+    font-size: 14pt ;
+    letter-spacing: 1.5px;
+    font-weight: 400 !important; 
+    line-height: 27px;
+}
+/* 
+版型樣式 
+為了美觀與可讀性，利用陰影取代原先的框線
+*/
+.list {
+    background-color: lightblue;
+    box-shadow: 0px 1px 3px rgba(20%, 20%, 40%, 0.5);
+    font-size: 14px;
+        padding: 0 5px 0 5px;
+}
+/* 
+群組區塊樣式 
+每個區塊都調得比原本大，讓塞六個版型的時候至少不會發生位移的狀況
+*/
+.items {
+    list-style-type: none;
+    padding: 0;
+    float: left;
+    background-color: #D6D6D6;
+    min-height: 200px;
+    min-width: 130px;
+    border-radius: 3px;
+margin: -15px 5px 10px 0;
+}
+.items li {
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12pt;
+    line-height: 27px;
+}
+
+.Group {
+    margin-top: -22px;
+    margin-right: 8px;
+    padding: 0;
+    float: left;
+}
+
+/* 版型下方欄位設定(原尚未分配) */
+.initGroup {
+    margin-bottom: 7px;
+    width: 100%;
+    margin-left: -3px;
+    margin-top: -15px;
+}
+
+.Group.initGroup .highlight {
+    /* display: inline-block; */
+    width: 100px;
+    vertical-align: middle;
+    min-height: 22px;
+}
+
+
+/* 版型下方欄位設定(原尚未分配) */
+.initGroup .items {
+    min-height: 0px;
+    background-color: #fff;
+    width: 100%;
+     padding: 5px 0 5px 0;
+}
+
+
+/* 版型下方欄位內的li設定(原尚未分配) */
+
+.Group.initGroup ul li {
+    display: inline-block;
+    line-height: 27px;
+    margin-right: 7px;
+   /*  width: 100px; */
+   
+}
+
+
+/* 群組名稱 */
+.SitesStyleSortEdit {
+    cursor: pointer;
+    line-height: 1;
+}
+
+.highlight {
+    border: 2px solid #5583db;
+    font-weight: bold;
+    min-height:20px; 
+}
+
+.deleteDiv {
+    list-style-type: none;
+    padding: 0;
+    float: left;
+    background-color: lightskyblue;
+    min-height: 150px;
+    min-width: 100px;
+}
+
+
+/* 
+新增SASS Source  Button
+新增版型 Button
+新增群組 Button
+*/
+h3 input {
+    cursor: pointer;
+    transition: background-color 0.5s;
+    background-color: #ffffff;
+    width: 25px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #5583db;
+    color: #5583db;
+    font-weight: bold;
+    font-size: 13pt;
+    line-height: 23px;
+    vertical-align: super;
+    padding: 0 !important;
+    text-align: center;
+    position: absolute;
+    margin-left: 5px;
+}
+
+input:hover,
+.SASS:hover {
+    background-color: #5583db !important;
+    color: #fff;
+}
+
+input {
+    cursor: pointer;
+    font-size: 10pt;
+    color: #5583db;
+    transition: background-color 0.5s;
+    background-color: #fff;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5583db;
+      line-height: 20px;  
+
+}
+
+#btnMasterSASS {
+/*     margin-left: 1px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+ */
+    margin: 0 5px 5px 1px;
+}
+
+.SASS {
+    color: #5583db;
+    transition: background-color 0.5s;
+    background-color: #fff !important;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5583db;
+    line-height: 27px;
+    padding: 4px 6px 5px 6px !important;
+    margin: 0px 5px 0 0px !important;
+
+}
+
+
+/*  清除快取  */
+#ContentPlaceHolder1_btnClearImg {
+    cursor: pointer;
+    margin-top: 20px;
+   /*  height: 27px; */
+    margin-bottom: -1px;
+    margin-left: 1px;
+    padding: 0px 5px 0px 5px !important;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+  }
+
+#imgTitle {
+    margin-left: -10px;
+}
+
+#MainTable table{
+  width: 95%;
+  margin-left: 5%;
+}
